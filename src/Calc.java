@@ -1,13 +1,16 @@
+import java.io.PrintWriter;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 public class Calc {
     public static void main(String[] args) throws FileNotFoundException, NumberFormatException, Exception {
 
-        File file = new File("C:\\Users\\SuperUser\\Desktop\\input.txt");
-        Scanner sc = new Scanner(file);
+        File input = new File("C:\\Users\\SuperUser\\Desktop\\input.txt");
+        Scanner sc = new Scanner(input);
         String line = sc.nextLine();
         sc.close();
+        File output = new File("C:\\Users\\SuperUser\\Desktop\\output.txt");
+        PrintWriter printWriter = new PrintWriter(output);
         double a = 0.0;
         double b = 0.0;
         char znak = ' ';
@@ -56,16 +59,22 @@ public class Calc {
         if(is) {
             switch(znak){
                 case('+'): System.out.print(a + b);
+                    printWriter.print(a + b);
+                    printWriter.close();
                     break;
                 case('-'): System.out.print(a - b);
+                    printWriter.print(a - b);
+                    printWriter.close();
                     break;
                 case('/'):
                     if(b==0.0) System.out.print("Error! Division by zero");
-
-
                     else	 System.out.print(a / b);
+                    printWriter.print(a / b);
+                    printWriter.close();
                     break;
                 case('*'): System.out.print(a * b);
+                    printWriter.print(a * b);
+                    printWriter.close();
                     break;
             }
         }

@@ -33,7 +33,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;app.teamhub.trackedBranches&quot;: &quot;&quot;,
+    &quot;app.teamhub.trackedBranches&quot;: &quot;-fq8uc7/master&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -63,6 +63,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664798728431</updated>
     </task>
+    <task id="LOCAL-00001" summary="выполнил задание с вводом из файла">
+      <created>1664800316913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664800316913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
